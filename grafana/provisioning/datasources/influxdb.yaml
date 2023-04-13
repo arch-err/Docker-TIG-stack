@@ -1,0 +1,28 @@
+deleteDatasources:
+  - name: "Influxdb"
+    orgId: 1
+
+apiVersion: 1
+
+datasources:
+- id: 3
+  uid: KVAY5Ib4k
+  orgId: 1
+  name: Influxdb
+  type: influxdb
+  typeName: InfluxDB
+  access: proxy
+  url: http://influxdb:8086
+  password:
+  user:
+  database:
+  basicAuth: false
+  isDefault: true
+  jsonData:
+    httpMode: POST
+    organization: aqara2tig 
+    token: 0e486093aa3066e68761510fa94becd6b6241ee961dcad91e6a1d3dd3627e261
+ 
+    version: Flux
+  readOnly: true
+  editable: true
